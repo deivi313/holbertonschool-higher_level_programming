@@ -1,2 +1,4 @@
---Display number of records
-SELECT COUNT(*) FROM first_table WHERE id = 89;
+-- Show number of records
+SELECT COUNT(*) AS total_records
+FROM first_table
+WHERE id=89;
